@@ -2,6 +2,13 @@
 .Rhistory
 .Rapp.history
 
+# Archivos
+0_consulta_datos.R
+1_seleccion_instrumentos.R
+2_consolidacion.R
+datos/clases.csv
+datos/hist_portafolios.csv
+
 # Session Data files
 .RData
 .RDataTmp

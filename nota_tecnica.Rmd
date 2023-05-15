@@ -1,0 +1,23 @@
+---
+title: "Guia básica de optimización de portafolio"
+output: html_notebook
+---
+
+# Objetivo
+
+Demostrar un ejercicio de optimización utilizando lenguaje de programación $R$, del cual se
+pueda desprender la construcción de un glide path para la asignación estratégica de activos
+de un portafolio de un fondo de pensiones.
+
+# Paso 1: Instrumentos
+
+Para la contrucción de este modelo se han seleccionado instrumentos disponibles en los 
+portafolios de los fondos de pensiones en el primer trimestre del 2023. Los instrumentos seleccionados son:
+
+Pada deuda:
+
+```{r}
+deuda = read.csv("datos/deuda.csv")
+deuda
+```
+
